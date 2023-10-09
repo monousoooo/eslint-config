@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --clean --dts",
-    "release": "bumpp"
+    "release": "bumpp -r && pnpm -r publish --access public"
   },
   "devDependencies": {
     "bumpp": "^9.2.0",

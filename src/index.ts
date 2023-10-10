@@ -1,3 +1,3 @@
-import { monousoooo } from "./factory";
+import { monousoooo } from './factory'
 
-export default monousoooo;
+export default monousoooo
